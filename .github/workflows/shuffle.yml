@@ -3,7 +3,7 @@ name: Shuffle Spotify Playlist
 on:
   schedule:
     # Daily at 2 AM UTC (11 AM KST)
-    - cron: '0 */6 * * *'
+    - cron: '0 2 * * *'
     # For hourly: '0 * * * *'
     # For every 6 hours: '0 */6 * * *'
   
